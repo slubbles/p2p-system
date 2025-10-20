@@ -146,7 +146,8 @@ npm run dev
 
 5. **Open browser**
 ```
-http://localhost:3000
+http://localhost:3000  (development)
+https://universal-p2p-system.netlify.app  (production)
 ```
 
 ### Production Build
@@ -476,7 +477,7 @@ The project includes 4 professional screenshots demonstrating key features:
 ## 📞 Contact & Links
 
 **Repository:** https://github.com/slubbles/p2p-system  
-**Live Demo:** *[To be deployed]*  
+**Live Demo:** https://universal-p2p-system.netlify.app  
 **Documentation:** See this repository
 
 ---

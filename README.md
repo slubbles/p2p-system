@@ -8,13 +8,14 @@
 <img src="https://img.shields.io/badge/Tailwind-v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
 <img src="https://img.shields.io/badge/WalletConnect-2-3B99FC?style=for-the-badge&logo=walletconnect&logoColor=white" alt="WalletConnect"/>
 <img src="https://img.shields.io/badge/wagmi-v2-000000?style=for-the-badge" alt="wagmi"/>
+<img src="https://img.shields.io/badge/Deployed-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Deployed on Netlify"/>
 <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="MIT License"/>
 
 ### 🌾 **From rice farmers to electronics retailers** · Zero platform fees · Open-source
 
 **A Binance P2P-inspired marketplace framework for ANY industry**
 
-[🚀 Live Demo](http://localhost:3003) · [📚 Documentation](./TRUSTLESS_ARCHITECTURE.md) · [🐛 Report Bug](https://github.com/slubbles/p2p-system/issues) · [⭐ Star on GitHub](https://github.com/slubbles/p2p-system)
+[🚀 Live Demo](https://universal-p2p-system.netlify.app) · [📚 Documentation](./TRUSTLESS_ARCHITECTURE.md) · [🐛 Report Bug](https://github.com/slubbles/p2p-system/issues) · [⭐ Star on GitHub](https://github.com/slubbles/p2p-system)
 
 </div>
 
@@ -273,7 +274,7 @@ See `P2P_MARKETPLACE_FRAMEWORK.md` for industry configuration examples.
 
 ![Onboarding Screenshot](./frontend/public/onboarding.png)
 
-**Want to see it in action?** → [Visit /demo page](http://localhost:3005/demo) for live showcase!
+**Want to see it in action?** → [Visit /demo page](https://universal-p2p-system.netlify.app/demo) for live showcase!
 
 </div>
 
@@ -680,7 +681,7 @@ It helps others discover the project and motivates us to keep building.
 
 ### 📖 Quick Links
 
-[🏠 Homepage](http://localhost:3003) | [🛒 Marketplace](http://localhost:3003/marketplace) | [📸 Demo](http://localhost:3003/demo) | [📚 Docs](./TRUSTLESS_ARCHITECTURE.md) | [🚀 Deploy](./NETLIFY_DEPLOYMENT.md)
+[🏠 Homepage](https://universal-p2p-system.netlify.app) | [🛒 Marketplace](https://universal-p2p-system.netlify.app/marketplace) | [📸 Demo](https://universal-p2p-system.netlify.app/demo) | [📚 Docs](./TRUSTLESS_ARCHITECTURE.md) | [🚀 Deploy](./NETLIFY_DEPLOYMENT.md)
 
 ---
 

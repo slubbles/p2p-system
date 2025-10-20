@@ -145,7 +145,8 @@ cp .env.local.example .env.local
 npm run dev
 ```
 
-Visit **http://localhost:3000** 🎉
+Visit **http://localhost:3000** for development 🎉  
+Live demo: **https://universal-p2p-system.netlify.app** 🚀
 
 ---
 
