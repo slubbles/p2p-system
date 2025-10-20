@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
+import { Providers } from "@/components/providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -16,7 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
       <body className="antialiased">
-        {children}
+        <Providers>
+          {children}
+        </Providers>
       </body>
     </html>
   );

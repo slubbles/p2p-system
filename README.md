@@ -1,17 +1,57 @@
-# 🌐 Universal P2P Marketplace Framework
+<div align="center">
 
-> **Binance-inspired marketplace for ANY industry** - From rice farmers to electronics retailers. Open-source, trustless, and production-ready.
+# 🛒 Universal P2P Marketplace Framework
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Next.js](https://img.shields.io/badge/Next.js-15-black)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8)](https://tailwindcss.com/)
+<img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
+<img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+<img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/Tailwind-v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
+<img src="https://img.shields.io/badge/WalletConnect-2-3B99FC?style=for-the-badge&logo=walletconnect&logoColor=white" alt="WalletConnect"/>
+<img src="https://img.shields.io/badge/wagmi-v2-000000?style=for-the-badge" alt="wagmi"/>
+<img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="MIT License"/>
+
+### 🌾 **From rice farmers to electronics retailers** · Zero platform fees · Open-source
+
+**A Binance P2P-inspired marketplace framework for ANY industry**
+
+[🚀 Live Demo](http://localhost:3003) · [📚 Documentation](./TRUSTLESS_ARCHITECTURE.md) · [🐛 Report Bug](https://github.com/slubbles/p2p-system/issues) · [⭐ Star on GitHub](https://github.com/slubbles/p2p-system)
+
+</div>
+
+---
+
+## 📌 Project Status
+
+<div align="center">
+
+**🎯 Type:** Technical demonstration (75% complete)  
+**💼 Purpose:** Showcase full-stack Web3 development skills  
+**✨ Functionality:** Working authentication, onboarding, marketplace browsing
+
+| Resource | Link |
+|----------|------|
+| � Frontend Docs | [frontend/README.md](frontend/README.md) |
+| 🚀 Deployment Guide | [NETLIFY_DEPLOYMENT.md](NETLIFY_DEPLOYMENT.md) |
+| ⚡ Quick Reference | [NETLIFY_QUICK_REFERENCE.md](NETLIFY_QUICK_REFERENCE.md) |
+| 🏗️ Architecture | [TRUSTLESS_ARCHITECTURE.md](TRUSTLESS_ARCHITECTURE.md) |
+
+</div>
 
 ---
 
 ## 🎯 What Is This?
 
 A **white-label P2P marketplace framework** that adapts Binance's proven P2P trading model for **physical goods**. Whether you're selling rice, chickens, electronics, or textiles - this framework provides everything you need to create a trustless, secure marketplace.
+
+<div align="center">
+
+### ✨ Features at a Glance
+
+| 🔐 Web3 Auth | 📢 Ads Model | ⏰ Automation | ⭐ Reputation | 💳 Payments | 🎨 Templates |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 300+ wallets | Post offers | Auto-cancel | On-chain | Any method | 5+ industries |
+
+</div>
 
 ### **The Problem We Solve**
 
@@ -96,29 +136,37 @@ If something goes wrong:
 
 ## 💻 For Developers: Setup
 
-### **Prerequisites**
+<div align="center">
 
-- Node.js 18+
-- npm or yarn
-- Git
+### ⚡ Quick Start in 3 Steps
 
-### **Quick Start**
+</div>
 
 ```bash
-# 1. Clone the repository
+# 1️⃣ Clone & Install
 git clone https://github.com/slubbles/p2p-system.git
-cd p2p-system
+cd p2p-system/frontend && npm install
 
-# 2. Install dependencies
-cd frontend
-npm install
+# 2️⃣ Configure Environment
+cp .env.local.example .env.local
+# Add your WalletConnect Project ID (get free at https://cloud.reown.com/)
 
-# 3. Run development server
+# 3️⃣ Run Development Server
 npm run dev
-
-# 4. Open in browser
-# Visit http://localhost:3000
+# 🎉 Visit http://localhost:3000
 ```
+
+<div align="center">
+
+**Need a WalletConnect ID?** → [Get one free in 2 minutes](https://cloud.reown.com/) 🚀
+
+</div>
+
+### **Prerequisites**
+
+- Node.js 18+ and npm
+- Git
+- A Web3 wallet (MetaMask, Rainbow, etc.) for testing
 
 ### **Project Structure**
 
@@ -170,13 +218,19 @@ npx shadcn@latest add [component-name]
 
 ### **Tech Stack**
 
-| Technology | Purpose |
-|------------|---------|
-| Next.js 15 | React framework with App Router |
-| TypeScript | Type safety |
-| Tailwind CSS v4 | Styling |
-| shadcn/ui | Component library |
-| Geist Font | Typography (Vercel's font) |
+<div align="center">
+
+| **Frontend** | **Web3** | **Styling** | **Tools** |
+|:---:|:---:|:---:|:---:|
+| ⚛️ React 19 | 🔗 wagmi v2 | 🎨 Tailwind v4 | 📦 TypeScript 5 |
+| ⚡ Next.js 15 | 🌐 viem v2 | 🧩 shadcn/ui | 🔄 App Router |
+| 🎭 Server Components | 💼 WalletConnect 2 | 🖋️ Geist Font | 📱 Responsive |
+
+**Architecture:** Next.js App Router + React Server Components + Client Components  
+**Deployment:** Netlify-ready (Vercel compatible)  
+**State Management:** React Context API + TanStack Query (coming)
+
+</div>
 
 ### **Customization**
 
@@ -192,6 +246,36 @@ Edit `frontend/src/app/globals.css`:
 
 #### Add Industry Template
 See `P2P_MARKETPLACE_FRAMEWORK.md` for industry configuration examples.
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+
+### 🏠 Homepage
+*Vercel-inspired minimalist design with clear value proposition*
+
+![Homepage Screenshot](./frontend/public/homepage.png)
+
+### 🛒 Marketplace
+*Browse advertisements with advanced filtering and search*
+
+![Marketplace Screenshot](./frontend/public/marketplace.png)
+
+### 👤 User Profile
+*Comprehensive dashboard with stats, reputation, and order history*
+
+![Profile Screenshot](./frontend/public/profile.png)
+
+### 🚀 Onboarding
+*Smooth first-time user experience with role selection*
+
+![Onboarding Screenshot](./frontend/public/onboarding.png)
+
+**Want to see it in action?** → [Visit /demo page](http://localhost:3005/demo) for live showcase!
+
+</div>
 
 ---
 
@@ -366,33 +450,53 @@ The framework is fully customizable - configure for ANY product category.
 
 ## 🗺️ Roadmap
 
-### ✅ **Phase 1: MVP (Current)**
-- [x] Next.js frontend with Vercel design
-- [x] Responsive mobile-first UI
-- [x] Component library (shadcn/ui)
-- [x] Framework documentation
-- [x] Architecture design
+<div align="center">
 
-### 🔄 **Phase 2: Blockchain Integration** (Next)
-- [ ] Smart contract development (Solidity)
-- [ ] Wallet integration (RainbowKit)
-- [ ] IPFS integration (Pinata)
-- [ ] The Graph indexer
-- [ ] Testnet deployment
+| Phase | Status | Progress |
+|-------|--------|----------|
+| **Phase 1: Frontend** | ✅ 75% Complete | █████████░ |
+| **Phase 2: Smart Contracts** | 🔄 Next Up | ░░░░░░░░░░ |
+| **Phase 3: Backend** | 📋 Planned | ░░░░░░░░░░ |
+| **Phase 4: Production** | 🚀 Future | ░░░░░░░░░░ |
 
-### 📅 **Phase 3: Advanced Features**
-- [ ] Encrypted messaging (XMTP)
-- [ ] Dispute resolution (Kleros)
-- [ ] Multi-chain support
+</div>
+
+### ✅ **Phase 1: Frontend (Current - 75% Complete)**
+- [x] Homepage with hero, features, industries
+- [x] Marketplace with filtering & search
+- [x] User profiles and stats dashboard
+- [x] Onboarding flow (role selection, profile setup)
+- [x] WalletConnect v2 integration (300+ wallets)
+- [x] Responsive mobile-first design
+- [x] Demo/screenshots page
+- [x] Connect Wallet CTAs
+- [ ] Real-time chat between buyer/seller
+- [ ] Order tracking UI
+- [ ] Notification system
+
+### 🔄 **Phase 2: Smart Contracts (Next)**
+- [ ] Escrow contract (Solidity) with time locks
+- [ ] Reputation/staking contract
+- [ ] Dispute resolution contract
+- [ ] Deploy to Polygon/Arbitrum testnet
+- [ ] Smart contract audits
+- [ ] The Graph indexer for on-chain data
+
+### � **Phase 3: Backend (Planned)**
+- [ ] API for off-chain data (profiles, reviews)
+- [ ] IPFS integration for images (Pinata)
+- [ ] Push notifications (Web Push API)
+- [ ] Analytics dashboard
+- [ ] Admin panel
+- [ ] Email notifications (optional)
+
+### 🚀 **Phase 4: Production (Future)**
+- [ ] Security audit (smart contracts + frontend)
+- [ ] Beta testing program
+- [ ] Marketing & community building
+- [ ] Mainnet launch
 - [ ] Mobile app (React Native)
-- [ ] DAO governance
-
-### 🚀 **Phase 4: Ecosystem**
-- [ ] Developer SDK
-- [ ] Industry plugins
-- [ ] Reputation NFTs
-- [ ] Cross-marketplace reputation
-- [ ] Zero-knowledge privacy features
+- [ ] Multi-chain support
 
 ---
 
@@ -408,30 +512,65 @@ The framework is fully customizable - configure for ANY product category.
 
 ## 🤝 Contributing
 
-We welcome contributions! Here's how:
+<div align="center">
 
-### **For Developers**
+**Contributions are welcome!** This is an open-source project under **MIT License**
+
+[![Contributors](https://img.shields.io/github/contributors/slubbles/p2p-system?style=for-the-badge)](https://github.com/slubbles/p2p-system/graphs/contributors)
+[![Issues](https://img.shields.io/github/issues/slubbles/p2p-system?style=for-the-badge)](https://github.com/slubbles/p2p-system/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/slubbles/p2p-system?style=for-the-badge)](https://github.com/slubbles/p2p-system/pulls)
+
+</div>
+
+### How to Contribute
+
 ```bash
-# 1. Fork the repository
-# 2. Create feature branch
+# 1️⃣ Fork the repository
+# Click "Fork" button on GitHub
+
+# 2️⃣ Clone your fork
+git clone https://github.com/YOUR_USERNAME/p2p-system.git
+cd p2p-system
+
+# 3️⃣ Create feature branch
 git checkout -b feature/amazing-feature
 
-# 3. Commit changes
-git commit -m 'Add amazing feature'
+# 4️⃣ Make your changes
+# ... code code code ...
 
-# 4. Push to branch
+# 5️⃣ Commit with descriptive message
+git commit -m '✨ Add amazing feature'
+
+# 6️⃣ Push to your fork
 git push origin feature/amazing-feature
 
-# 5. Open Pull Request
+# 7️⃣ Open Pull Request
+# Go to GitHub and click "New Pull Request"
 ```
 
-### **Areas We Need Help**
-- 🔧 Smart contract development
-- 🎨 UI/UX improvements
-- 📝 Documentation
-- 🌍 Translations
-- 🐛 Bug reports
-- 💡 Feature suggestions
+### Areas We Need Help
+
+<div align="center">
+
+| Area | Skills Needed | Priority |
+|------|---------------|----------|
+| 🔧 **Smart Contracts** | Solidity, Hardhat, Security | 🔴 High |
+| 🎨 **UI/UX** | React, Tailwind, Design | 🟡 Medium |
+| 📝 **Documentation** | Writing, Technical docs | 🟢 Low |
+| 🌍 **Translations** | Multiple languages | 🟢 Low |
+| 🐛 **Bug Reports** | Testing, QA | 🟡 Medium |
+| 💡 **Feature Ideas** | Product thinking | 🟢 Low |
+
+</div>
+
+### Development Guidelines
+
+- ✅ Follow TypeScript best practices
+- ✅ Use Tailwind CSS for styling (no custom CSS)
+- ✅ Write clean, documented code
+- ✅ Test on mobile devices
+- ✅ Keep components small and reusable
+- ✅ Update documentation when adding features
 
 ---
 
@@ -474,40 +613,76 @@ MIT License - see [LICENSE](./LICENSE) file
 
 ## 📞 Contact & Community
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/slubbles/p2p-system/issues)
-- **Discussions**: [Join the conversation](https://github.com/slubbles/p2p-system/discussions)
-- **Twitter**: [@slubbles](https://twitter.com/slubbles)
-- **Email**: [Your email here]
+<div align="center">
+
+**Join the community and help build the future of peer-to-peer marketplaces!**
+
+[![GitHub](https://img.shields.io/badge/GitHub-slubbles-181717?style=for-the-badge&logo=github)](https://github.com/slubbles/p2p-system)
+[![Issues](https://img.shields.io/badge/Report_Bug-Issues-red?style=for-the-badge&logo=github)](https://github.com/slubbles/p2p-system/issues)
+[![Discussions](https://img.shields.io/badge/Join-Discussions-blue?style=for-the-badge&logo=github)](https://github.com/slubbles/p2p-system/discussions)
+[![Twitter](https://img.shields.io/badge/Twitter-@slubbles-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/slubbles)
+
+</div>
 
 ---
 
 ## 🙏 Acknowledgments
 
-**Inspired By:**
-- [Binance P2P](https://p2p.binance.com/) - Proof that P2P marketplaces work at scale
-- [LocalBitcoins](https://localbitcoins.com/) - Pioneer of P2P crypto trading
-- [Vercel](https://vercel.com/) - Design philosophy and Geist font
-- [shadcn/ui](https://ui.shadcn.com/) - Beautiful component library
+<div align="center">
 
-**Built With:**
-- [Next.js](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Solidity](https://soliditylang.org/) (coming soon)
+**This project stands on the shoulders of giants**
 
----
+### Inspired By
 
-## ⭐ Star Us!
+| [**Binance P2P**](https://p2p.binance.com/) | [**LocalBitcoins**](https://localbitcoins.com/) | [**Vercel**](https://vercel.com/) |
+|:---:|:---:|:---:|
+| Proof that P2P works at scale | Pioneer of P2P trading | Design philosophy |
 
-If you find this useful, please star the repo! It helps others discover the project.
+### Built With
 
-**Together, we can break monopolies and build truly open marketplaces.** 🚀
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
+<img src="https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcn&logoColor=white" alt="shadcn"/>
+<img src="https://img.shields.io/badge/WalletConnect-3B99FC?style=for-the-badge&logo=walletconnect&logoColor=white" alt="WalletConnect"/>
+<img src="https://img.shields.io/badge/wagmi-000000?style=for-the-badge" alt="wagmi"/>
+<img src="https://img.shields.io/badge/viem-000000?style=for-the-badge" alt="viem"/>
+
+**Special Thanks:**
+- 🎨 [shadcn](https://twitter.com/shadcn) for the amazing component library
+- ⚡ [Vercel team](https://vercel.com/about) for Next.js and inspiration
+- 🔗 [WalletConnect](https://walletconnect.com/) for seamless Web3 auth
+- 🌐 [wagmi](https://wagmi.sh/) & [viem](https://viem.sh/) teams for excellent Web3 libraries
+
+</div>
 
 ---
 
 <div align="center">
 
+## ⭐ Star This Repo!
+
+**If you find this useful, please star the repo!**  
+It helps others discover the project and motivates us to keep building.
+
+[![GitHub stars](https://img.shields.io/github/stars/slubbles/p2p-system?style=social)](https://github.com/slubbles/p2p-system/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/slubbles/p2p-system?style=social)](https://github.com/slubbles/p2p-system/network/members)
+[![GitHub watchers](https://img.shields.io/github/watchers/slubbles/p2p-system?style=social)](https://github.com/slubbles/p2p-system/watchers)
+
+---
+
+### 💪 Together, we can break monopolies and build truly open marketplaces
+
 **Made with ❤️ by the community, for the community**
+
+---
+
+### 📖 Quick Links
+
+[🏠 Homepage](http://localhost:3003) | [🛒 Marketplace](http://localhost:3003/marketplace) | [📸 Demo](http://localhost:3003/demo) | [📚 Docs](./TRUSTLESS_ARCHITECTURE.md) | [🚀 Deploy](./NETLIFY_DEPLOYMENT.md)
+
+---
 
 [⬆ Back to Top](#-universal-p2p-marketplace-framework)
 

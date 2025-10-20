@@ -15,7 +15,7 @@ export function Footer() {
             <h4 className="font-semibold mb-4 text-sm">Product</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <Link href="/features" className="hover:text-foreground transition-colors">
+                <Link href="/#features" className="hover:text-foreground transition-colors">
                   Features
                 </Link>
               </li>
@@ -25,12 +25,12 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/pricing" className="hover:text-foreground transition-colors">
+                <Link href="/about" className="hover:text-foreground transition-colors">
                   Pricing
                 </Link>
               </li>
               <li>
-                <Link href="/roadmap" className="hover:text-foreground transition-colors">
+                <Link href="/about#roadmap" className="hover:text-foreground transition-colors">
                   Roadmap
                 </Link>
               </li>
@@ -47,17 +47,17 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/guides" className="hover:text-foreground transition-colors">
+                <Link href="/docs#quick-start" className="hover:text-foreground transition-colors">
                   Guides
                 </Link>
               </li>
               <li>
-                <Link href="/api" className="hover:text-foreground transition-colors">
+                <Link href="/docs#architecture" className="hover:text-foreground transition-colors">
                   API Reference
                 </Link>
               </li>
               <li>
-                <Link href="/examples" className="hover:text-foreground transition-colors">
+                <Link href="https://github.com/slubbles/p2p-system" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                   Examples
                 </Link>
               </li>
@@ -74,17 +74,17 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="hover:text-foreground transition-colors">
+                <Link href="/about" className="hover:text-foreground transition-colors">
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="/careers" className="hover:text-foreground transition-colors">
+                <Link href="https://github.com/slubbles/p2p-system" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                   Careers
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-foreground transition-colors">
+                <Link href="https://github.com/slubbles/p2p-system/issues" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                   Contact
                 </Link>
               </li>
