@@ -1,26 +1,21 @@
-# Netlify Build Configuration
+# Netlify Configuration for Next.js 15
 [build]
   base = "frontend"
   command = "npm run build"
   publish = ".next"
 
-# Redirect all routes to index.html for client-side routing
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# Next.js Runtime
+[build.environment]
+  NEXT_PRIVATE_TARGET = "server"
 
-# Environment variables (set these in Netlify dashboard)
-# NEXT_PUBLIC_APP_URL
-# NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID
+# Functions for Next.js API routes and SSR
+[functions]
+  directory = "frontend/.netlify/functions"
+  node_bundler = "esbuild"
 
-# Cache optimization
-[[headers]]
-  for = "/static/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+# Essential Next.js Plugin
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
-[[headers]]
-  for = "/_next/static/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+# Environment variables (set these in Netlify dashboard):
+# NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_project_id
